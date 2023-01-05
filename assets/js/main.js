@@ -884,7 +884,7 @@
   /*-------------------------------------------------------------------------------
   One page template functionality
   -------------------------------------------------------------------------------*/
-  $('.navbar-nav a, .scroll-link').on('click', function(e) {
+  $('.navbar-nav .nav-link, .scroll-link').on('click', function(e) {
     e.preventDefault();
     var $this = $(this);
     $('html, body').animate({
